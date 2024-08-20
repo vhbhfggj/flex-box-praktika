@@ -1,0 +1,23 @@
+body {
+margin: 0;
+padding: 0;
+}
+header {
+background-color: blue;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    list-style: none;
+}
+.menu-item {
+    padding: 10px;
+    text-decoration: none;
+    background-color: yellow;
+}
